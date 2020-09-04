@@ -1,0 +1,60 @@
+// Fonts
+@import "~@mdi/font/css/materialdesignicons.min.css";
+
+// Variables
+@import 'variables';
+@import './tiptap/main';
+@import '~vue2-dropzone/dist/vue2Dropzone.min.css';
+
+a {
+    text-decoration: none !important;
+}
+
+.ltr {
+    direction: ltr !important;
+}
+
+.v-application {
+    font-family: IRANSans, sans-serif  !important;
+    letter-spacing: 0 !important;
+    .display-1,
+    .display-2,
+    .display-3,
+    .display-4,
+    .headline,
+    .title,
+    .subtitle-1,
+    .subtitle-2,
+    .body-1,
+    .body-2,
+    .caption,
+    .overline,
+    .v-btn,
+    .v-tab {
+        font-family: IRANSans, sans-serif !important;
+        letter-spacing: 0 !important;
+    }
+}
+.container {
+    max-width: 1200px;
+}
+.container--fluid {
+    max-width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+.h-40 {
+    height: 40%;
+}
+.w-100 {
+    width: 100%;
+}
+
+.gra-bg {
+    background-image: linear-gradient(to bottom right,#054592 0,#1897d4);
+}
+// Vuetify
+@import "~vuetify/dist/vuetify.min.css";
+
